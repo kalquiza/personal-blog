@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+    grid-template-areas: ;
+    "hd"
+    "nv"
+    "cn"
+    "ft";
+}
+
+.box{
+    background: grey;
+    border: 1px solid black;
+}
+
+.header{
+    grid-area:hd;
+}
+
+.nav{
+    grid-area: nv;
+}
+
+.content{
+    grid-area: cn;
+}
+
+.footer{
+    grid-area: ft;
+}
