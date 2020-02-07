@@ -1,15 +1,6 @@
 @import "header.css";
 @import "footer.css";
-
-.container{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1000px;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "cn"
-    "ft";
-}
+@import "post.css";
 
 .box{
     background:#fff;
@@ -23,8 +14,7 @@
     grid-template-rows: 350px 100vh;
     grid-row-gap: 30px;
     grid-column-gap: 30px;
-    grid-area: cn;
-    background-color: #eee;
+    background-color: #fff;
     padding: 30px;
     grid-template-areas:
     "tl tr"
