@@ -1,10 +1,11 @@
 @import "header.css";
+@import "footer.css";
 
 .container{
     display: grid;
     justify-content: center;
     grid-template-columns: 1000px;
-    grid-template-rows: 1fr 100px;
+    grid-template-rows: 1fr;
     grid-template-areas:
     "cn"
     "ft";
@@ -54,15 +55,6 @@
     width: auto;
     height: auto;
     grid-area: ft;
-}
-
-.footer{
-    background:#BCD;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 body{
