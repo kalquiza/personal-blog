@@ -23,16 +23,11 @@
     background-image: url(../images/pexels-photo-373076.jpeg);
     background-size: cover;
     background-position: center;
-    margin: 13px;
     grid-area: im;
 }
 
 img.post-image{
     width: 100%;
-}
-
-figcaption{
-    margin: 13px;
 }
 
 .sidebar{
