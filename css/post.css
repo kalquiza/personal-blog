@@ -14,26 +14,25 @@
 
 .post{
     margin: 13px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
     padding-bottom: 25px;
     grid-area: ps;
 }
 
 .post-image{
+    background-image: url(../images/pexels-photo-373076.jpeg);
+    background-size: cover;
+    background-position: center;
     margin: 13px;
     grid-area: im;
 }
 
-.title{
-
+img.post-image{
+    width: 100%;
 }
 
-.meta{
-
-}
-
-.content{
-
+figcaption{
+    margin: 13px;
 }
 
 .sidebar{
