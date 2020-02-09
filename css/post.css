@@ -37,6 +37,20 @@ img.post-image{
     grid-area: sd;
 }
 
+.searchbar{
+    display: flex;
+    width: 100%;
+    margin: 13px 0px;
+}
+
+.searchbar>button{
+    width: 75px;
+}
+
+.searchbar>input[type=text] {
+    width: 200px;
+}
+
 .author{
     display: grid;
     grid-template-rows:25px 100px 1fr;
@@ -73,9 +87,3 @@ figure{
 .ad{
     margin: 13px 0px;
 }
-
-input[type=text] {
-    padding: 13px 25px;
-    margin: 13px;
-    box-sizing: border-box;
-  }
