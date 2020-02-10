@@ -6,7 +6,7 @@
     grid-row-gap: 13px;
     grid-column-gap: 25px;
     background-color: #fff;
-    padding: 13px;
+    padding: 50px 13px;
     grid-template-areas:
     "im im"
     "ps sd";
