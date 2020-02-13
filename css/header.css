@@ -30,6 +30,28 @@
     grid-area: nv;
 }
 
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:link{
+    color: white;
+}
+
+.nav-link:visited{
+    color: white;
+}
+
+.nav-link:hover{
+    color:  #f2f2f2
+}
+
+.nav-link:active{
+    color:  #ccc
+}
+
+
 #navbar{
     display: flex;
     flex-direction: row;

@@ -2,11 +2,6 @@
 @import "footer.css";
 @import "post.css";
 
-
-* {
-   font-family: 'Roboto', sans-serif;
-}
-
 .box{
     background:#fff;
     /* border: 1px solid red; */
