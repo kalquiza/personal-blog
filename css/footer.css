@@ -4,8 +4,17 @@
     display: grid;
     justify-content: center;
     grid-template-columns: 100vw;
-    grid-template-rows: 125px 50px;
     grid-template-rows: 175px;
     grid-template-areas:
-    "ft";
+    "sc";
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    grid-area: sc;
+    justify-self: center;
+    justify-content: space-evenly;
+    width: 300px;
+    margin: 25px;
 }
