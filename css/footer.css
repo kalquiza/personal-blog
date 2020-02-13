@@ -4,7 +4,7 @@
     display: grid;
     justify-content: center;
     grid-template-columns: 100vw;
-    grid-template-rows: 175px;
+    grid-template-rows: 75px 75px;
     grid-template-areas:
     "sc";
 }
@@ -17,4 +17,9 @@
     justify-content: space-evenly;
     width: 300px;
     margin: 25px;
+}
+
+.copy{
+    margin: 25px;
+    justify-self: center;
 }
