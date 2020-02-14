@@ -1,16 +1,41 @@
+/* Anything smaller than first breakpoint 600px */
 .main{
     display: grid;
     justify-content: center;
-    grid-template-columns: 750px 275px;
+    grid-template-columns: 400px;
     grid-template-rows:450px 1fr;
     grid-row-gap: 13px;
     grid-column-gap: 25px;
     background-color: #fff;
     padding: 50px 13px;
     grid-template-areas:
+    "im"
+    "ps"
+    "sd";
+}
+  
+  /* Medium Screens */
+  @media (min-width: 800px) and (max-width:1100px) {
+    .main{
+    grid-template-columns: 750px;
+    grid-template-rows:450px 1fr;
+    grid-template-areas:
+      "im"
+      "ps"
+      "sd";
+    }
+  }
+
+  /* Large Screens */
+  @media (min-width:1100px) {
+    .main{
+    grid-template-columns: 750px 275px;
+    grid-template-rows:450px 1fr;
+    grid-template-areas:
     "im im"
     "ps sd";
-}
+    }
+  }
 
 .post{
     margin: 13px;
@@ -40,6 +65,7 @@ img.post-image{
 .searchbar{
     display: flex;
     margin: 13px;
+    align-self: center;
 }
 
 .searchbar>button{
@@ -57,7 +83,7 @@ img.post-image{
     justify-content: center;
     margin: 13px;
     padding-bottom: 7px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
     font-size: small;
     grid-template-areas:
     "av tt"
