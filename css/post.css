@@ -51,23 +51,45 @@ img.post-image{
     width: 200px;
 }
 
-.author{
+.author {
     display: grid;
-    grid-template-rows:25px 100px 1fr;
+    grid-template-rows:50px 125px 1fr;
     grid-template-columns: 50px 200px;
     justify-content: center;
     margin: 13px;
-    padding-bottom: 13px;
+    padding-bottom: 7px;
     border-bottom: 1px solid gray;
     font-size: small;
     grid-template-areas:
-    "tt tt"
-    "av bg";
+    "av tt"
+    "bg bg";
 }
 
-.author-title{
-    margin-bottom: 7px;
+.author-name {
+    margin: 13px;
+    font-size: 1.5em;
+    font-weight: 300;
     grid-area: tt;
+}
+
+.author-title {
+    margin-block-start: 7px;
+    font-size: 1.15em;
+    font-style: bold;
+}
+
+.author-edu {
+    margin-block-start: 4px;
+    margin-block-end: 7px;
+    font-size: 1.10em;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author-desc {
+    line-height: 1.5em;
+    font-size: 1em;
+    font-weight: 300;
 }
 
 .avatar{
@@ -78,7 +100,6 @@ img.post-image{
 
 .bio{
     grid-area: bg;
-    margin-left: 7px;
 }
 
 figure{
