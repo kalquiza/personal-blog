@@ -109,18 +109,6 @@ a{
     text-decoration: none;
 }
 
-a:link{
+.read {
     color: #bcd;
-}
-
-a:visited{
-    color: #bcd;
-}
-
-a:hover{
-    color:  #bcd;
-}
-
-a:active{
-    color:  #bcd;
 }
