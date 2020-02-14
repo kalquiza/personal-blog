@@ -15,11 +15,12 @@
     grid-area: sc;
     justify-self: center;
     justify-content: space-evenly;
+    align-self: flex-end;
     width: 300px;
-    margin: 25px;
 }
 
 .copy{
     margin: 25px;
     justify-self: center;
+    font-weight: 200;
 }
