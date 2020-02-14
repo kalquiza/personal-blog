@@ -2,6 +2,10 @@
 @import "footer.css";
 @import "post.css";
 
+body{
+  margin: 0;
+}
+
 .box{
     background:#fff;
     /* border: 1px solid red; */
@@ -39,6 +43,30 @@
     height: 250px;
 }
 
+.item>h1{
+  font-size: 1.5em;
+  color: #333;
+  margin: 7px 0;
+}
+
+.item>.meta{
+  font-size: .85em;
+  color: #333;
+}
+
+.item>p{
+  font-size: 1em;
+  margin-block-end: .50em;
+  margin-block-start: .50em;
+  color: #333;
+}
+
+.item>p{
+  font-size: .95em;
+  font-weight: 200;
+  line-height: 24px;
+  color: #333;}
+
 .feat{
   background-color: #fff;
   width: auto;
@@ -75,3 +103,24 @@ button{
     .container {
     }
   }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:link{
+    color: #bcd;
+}
+
+a:visited{
+    color: #bcd;
+}
+
+a:hover{
+    color:  #bcd;
+}
+
+a:active{
+    color:  #bcd;
+}

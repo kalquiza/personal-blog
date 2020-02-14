@@ -88,3 +88,58 @@ figure{
 .ad{
     margin: 13px 0px;
 }
+
+h1 {
+    font-size: 3em;
+    font-weight: 500;
+    margin-block-end: .25em;
+    margin-block-start: 0em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 500;
+    margin-block-end: .50em;
+    margin-block-start: .50em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-block-end: .50em;
+    margin-block-start: .50em;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+blockquote {
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 24px;
+    font-style: italic;
+}
+
+.meta {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+article>* {
+    color: #333;
+}
