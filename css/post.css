@@ -1,11 +1,10 @@
-/* Anything smaller than first breakpoint 600px */
-.main{
+.main {
     display: grid;
-    justify-content: center;
     grid-template-columns: 400px;
     grid-template-rows:450px 1fr;
     grid-row-gap: 13px;
     grid-column-gap: 25px;
+    justify-content: center;
     background-color: #fff;
     padding: 50px 13px;
     grid-template-areas:
@@ -14,7 +13,6 @@
     "sd";
 }
   
-  /* Medium Screens */
   @media (min-width: 800px) and (max-width:1100px) {
     .main{
     grid-template-columns: 750px;
@@ -26,7 +24,6 @@
     }
   }
 
-  /* Large Screens */
   @media (min-width:1100px) {
     .main{
     grid-template-columns: 750px 275px;
@@ -37,25 +34,23 @@
     }
   }
 
-.post{
+.post {
     margin: 13px;
-    border-bottom: 1px solid lightgray;
     padding-bottom: 25px;
+    border-bottom: 1px solid lightgray;
     grid-area: ps;
 }
 
-.post-image{
+.post-image {
     background-image: url(../images/pexels-photo-373076.jpeg);
     background-size: cover;
     background-position: center;
     grid-area: im;
 }
 
-img.post-image{
-    width: 100%;
-}
+img.post-image { width: 100%; }
 
-.sidebar{
+.sidebar {
     display: flex;
     flex-direction: column;
     margin: 13px 0px;
@@ -64,8 +59,8 @@ img.post-image{
 
 .searchbar{
     display: flex;
-    margin: 13px;
     align-self: center;
+    margin: 13px;
 }
 
 .searchbar>button{
@@ -109,6 +104,7 @@ img.post-image{
     font-size: 1.10em;
     font-weight: 300;
     font-style: italic;
+    color: #f93;
 }
 
 .author-desc {
@@ -123,16 +119,15 @@ img.post-image{
     border-radius: 50%;
 }
 
-.bio{
-    grid-area: bg;
+.bio{ grid-area: bg; }
+
+.meta {
+    font-size: 1em;
+    font-weight: 300;
 }
 
-figure{
-    margin:0;
-}
-
-.ad{
-    margin: 13px 0px;
+article>* {
+    color: #333;
 }
 
 h1 {
@@ -169,9 +164,8 @@ blockquote {
     font-style: italic;
 }
 
-.meta {
-    font-size: 1em;
-    font-weight: 300;
+figure{
+    margin:0;
 }
 
 figcaption {
@@ -184,8 +178,4 @@ ul {
     list-style-type: none;
     font-size: 1em;
     font-weight: 200;
-}
-
-article>* {
-    color: #333;
 }

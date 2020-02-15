@@ -1,26 +1,26 @@
-.footer{
-    background:#bcd;
-    color: #fff;
+.footer {
     display: grid;
-    justify-content: center;
     grid-template-columns: 100vw;
     grid-template-rows: 75px 75px;
+    justify-content: center;
+    background:#bcd;
+    color: #fff;
     grid-template-areas:
     "sc";
 }
 
-.social{
+.social {
     display: flex;
     flex-direction: row;
-    grid-area: sc;
-    justify-self: center;
     justify-content: space-evenly;
+    justify-self: center;
     align-self: flex-end;
     width: 300px;
+    grid-area: sc;
 }
 
-.copy{
-    margin: 25px;
+.copy {
     justify-self: center;
+    margin: 25px;
     font-weight: 200;
 }
